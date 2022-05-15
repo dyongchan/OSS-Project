@@ -1,4 +1,4 @@
-package com.example.a16mbti_feature;
+package com.example.myapplication;
 
 import org.junit.Test;
 
