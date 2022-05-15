@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.oss_project_16mbti_feature;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.myapplication", appContext.getPackageName());
+        assertEquals("com.example.oss_project_16mbti_feature", appContext.getPackageName());
     }
 }

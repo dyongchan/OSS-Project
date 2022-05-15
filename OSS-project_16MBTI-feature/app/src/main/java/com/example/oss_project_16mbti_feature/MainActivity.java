@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.oss_project_16mbti_feature;
 
 import androidx.appcompat.app.AppCompatActivity;
 
