@@ -9,25 +9,203 @@
     android:layout_marginRight="10dp"
     android:layout_marginBottom="20dp"
     android:orientation="vertical"
+    android:layout_gravity="start"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/teal_700"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:layout_gravity="center"
         android:text="ISTJ"
-        android:textSize="24dp" />
+        android:textSize="24dp" /> #MBTI
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center"
         android:text="세상의 소금형"
-        android:textSize="12dp" />
+        android:textSize="12dp" /> #MBTI 한줄평(?)
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="196dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sample"
+        android:background="@color/white"
+        android:layout_gravity="start" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+        android:layout_width="196dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:src="@drawable/sample2"
+        android:layout_gravity="" />
+</LinearLayout> #MBTI 관련 이미지
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="자세한 특징"
+        android:textSize="12dp" /> #자세한 특징(글자)
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고"
+        android:textSize="12dp" /> #자세한 특징(내용)
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="어울리는 직종"
+        android:textSize="12dp" /> #어울리는 직종(글자)
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고"
+        android:textSize="12dp" /> #어울리는 직종(내용)
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="강점과 약점"
+        android:textSize="12dp" /> #강점과 약점(글자)
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="강점"
+            android:textSize="12dp" /> #강점(글자)
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="약점"
+            android:textSize="12dp" /> #약점(글자)
+
+
+
+
+    </LinearLayout> #강점/약점(글자)
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고"
+            android:textSize="12dp" /> #강점(내용)
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+
+            android:text="찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고"
+            android:textSize="12dp" /> #약점(내용)
+
+    </LinearLayout> #강점/약점(내용)
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="MBTI 궁합"
+        android:textSize="12dp" /> #MBTI 궁합(글자)
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="좋은 궁합"
+            android:textSize="12dp" /> #좋은 궁합(글자)
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="나쁜 궁합"
+            android:textSize="12dp" /> #나쁜 궁합(글자)
+
+
+
+
+    </LinearLayout> #MBTI 궁합(글자)
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+
+            android:text="찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고"
+            android:textSize="12dp" /> #좋은 궁합(내용)
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+
+            android:text="찐으로 맛있는 돼지고기김치찌개 레시피 절대 실패 없는 김치찌개 맛있게 끓이는법 여러분께 알려드릴게요. 작년 겨울, 친정언니와 처음으로 담갔던 김장이 성공적으로 끝나며 우리는 벌써부터 올해 김장 계획을 세우고 있어요. 시원하면서도 아삭하고"
+            android:textSize="12dp" /> #나쁜 궁합(내용)
+
+
+
+
+    </LinearLayout> #MBTI 궁합(내용)
+
+
+
+
+
 
 
 </LinearLayout>
