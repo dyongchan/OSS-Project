@@ -6,78 +6,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
 
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+        android:background="@drawable/main_background_3">
 
 
-        <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <LinearLayout
-            android:layout_width="250dp"
-            android:layout_height="250dp">
+                android:layout_width="370dp"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
 
-            </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/main_1" />
 
                 <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_gravity="right"
-                android:layout_margin="5dp">
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-
-                 </LinearLayout>
+                    <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/button_4"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="16가지 MBTI 유형검사"
+                        android:textStyle="bold" />
 
 
                     <Button
-                        android:id="@+id/button_1"
-                        android:layout_width="130dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="right"
-                        android:layout_marginTop="170dp"
-                        android:layout_marginRight="15dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_5"
+                        android:drawableRight="@drawable/test_button_2"
+                        android:fontFamily="@font/jalnan"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="20dp"
                         android:text="진단하기"
-                        android:textSize="18sp"
-                        android:textStyle="bold">
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
 
-                    </Button>
-        </FrameLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="370dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:orientation="horizontal"
-            android:background="@color/black"
+            android:background="@drawable/button_round_1"
             android:gravity="center">
 
             <TextView
-                android:layout_width="150dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center_vertical"
-                android:text="I : 내향적인"
-                android:textSize="17sp"
-                android:textAlignment="center"
-                android:textColor="#ffffff"
-                android:gravity="center_vertical"/>
-
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center_vertical"
-                android:text="E : 외향적인"
-                android:textSize="17sp"
-                android:textAlignment="center"
-                android:textColor="#ffffff"
-                android:gravity="center_vertical"
-                android:layout_marginLeft="20dp"/>
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="다른 MBTI는 어떨까?"
+                android:textSize="15sp"
+                android:fontFamily="@font/jalnan"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="center"/>
 
         </LinearLayout>
 
@@ -88,426 +99,28 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp">
 
-
-
             <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="1000dp"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_background_5">
 
                 <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
+                    android:layout_width="155dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="25dp"
+                    android:layout_marginLeft="15dp"
                     android:gravity="center_vertical"
                     android:orientation="vertical">
 
                     <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ISTJ"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="세상의 소금형"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="ISTP"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="ISFJ"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="ISFP"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="INTJ"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="INTP"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="INFJ"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="25dp"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <Button
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:text="INFP"
-                    android:textSize="22sp" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="40dp"
-                    android:text="####"
-                    android:textAlignment="center"
-                    android:textSize="17sp"
-                    android:gravity="center_vertical"/>
-
-
-            </LinearLayout>
-
-
-
-
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="185dp"
-                android:layout_height="1100dp"
-                android:layout_marginLeft="5dp"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ESTJ"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="사업가형"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ESTP"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ESFJ"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ESFP"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ENTJ"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ENTP"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ENFJ"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="185dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="25dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_width="185dp"
-                        android:layout_height="60dp"
-                        android:text="ENFP"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:layout_width="185dp"
-                        android:layout_height="40dp"
-                        android:text="####"
-                        android:textAlignment="center"
-                        android:textSize="17sp"
-                        android:gravity="center_vertical"/>
-
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:text="ISTJ\n성실노력형"
+                        android:fontFamily="@font/jalnan"
+                        android:lineSpacingExtra="10dp"
+                        android:textSize="21sp"
+                        android:background="@drawable/button_round_1"/>
 
                 </LinearLayout>
 
