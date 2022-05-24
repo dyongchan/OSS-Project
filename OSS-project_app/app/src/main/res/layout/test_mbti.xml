@@ -9,12 +9,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/main_background_3">
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="390dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -25,8 +25,9 @@
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="30dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="MBTI 유형검사"
+                android:fontFamily="@font/chosunkm"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="gravity"
@@ -34,64 +35,70 @@
 
         <FrameLayout
             android:layout_width="370dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/test_layout_1">
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
-                android:text="검사 주의사항"
+                android:layout_marginTop="5dp"
+                android:text="▶ 주의사항 ◀"
+                android:fontFamily="@font/chosunkm"
                 android:textAlignment="gravity"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="#b7282d"
                 android:gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="30dp"
-                android:text="1. 검사주의사항 1번"
+                android:text="○  해당하는 문항에만 답변하시오."
                 android:textSize="17sp"
+                android:paddingLeft="10dp"
                 android:textAlignment="gravity"
                 android:gravity="fill_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="75dp"
-                android:text="1. 검사주의사항 2번"
+                android:layout_height="30dp"
+                android:layout_marginTop="70dp"
+                android:text="○ 한 문장에 너무 오래 머무르지 마시오. "
                 android:textSize="17sp"
+                android:paddingLeft="10dp"
                 android:textAlignment="gravity"
-                android:gravity="center"/>
+                android:gravity="fill_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="120dp"
-                android:text="1. 검사주의사항 3번"
+                android:layout_height="30dp"
+                android:layout_marginTop="110dp"
+                android:text="○ 의식적인 일관성의 응답을 피하시오."
                 android:textSize="17sp"
+                android:paddingLeft="10dp"
                 android:textAlignment="gravity"
-                android:gravity="center"/>
+                android:gravity="fill_vertical"/>
 
         </FrameLayout>
 
 
         <LinearLayout
             android:layout_width="370dp"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_marginTop="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black"
+                android:background="@drawable/test_layout_4"
                 android:text="검 사 지"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
+                android:fontFamily="@font/chosunkm"
+                android:textColor="#000000"
                 android:textSize="20sp"
-                android:textAlignment="center"
+                android:textAlignment="gravity"
                 android:gravity="center"/>
 
         </LinearLayout>
@@ -103,49 +110,56 @@
             android:background="@drawable/test_layout_1">
 
                 <TextView
+                    android:id="@+id/test_progress_1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:text="1/5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="1/4"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textAlignment="gravity"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"/>
+                    android:background="@drawable/test_layout_5"/>
 
-                <TextView
-                    android:layout_width="320dp"
-                    android:layout_height="70dp"
-                    android:textSize="16sp"
-                    android:text="자신에게 자연스럽고, 습관처럼 편안하게 느껴지고, 자주 행동하는 경황과 가까운 것은?"
-                    android:textAlignment="gravity"
-                    android:gravity="center"
-                    android:background="@drawable/test_layout_1"/>
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="자신에게 자연스럽고, 습관처럼 편안하게 느껴지고, 자주 행동하는 경황과 가까운 것은?"
+                android:textAlignment="gravity"
+                android:textSize="16sp"/>
 
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="370dp"
-            android:layout_height="580dp"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:orientation="horizontal">
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layerType="software">
 
                 <TextView
+                    android:id="@+id/test_1"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="1. 다른사람들과 쉽게 어울린다."
                     android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
                 <CheckBox
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:checked="false"
                     android:button="@android:color/transparent"
                     android:background="@drawable/checkbox_shape_1"/>
@@ -154,232 +168,391 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_2"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="2. 조용하고 말이 없는 편이다."
                     android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_3"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="3. 실제적인 사실을 다루는 과목들을 가르치고 싶다. "
                     android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_4"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="4. 이론적인 과목들을 가르치고 싶다."
                     android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_5"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="5. 감정을 이성보다 더 자주 내세우는 편이다."
                     android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_6"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="6. 이성을 감정보다 더 자주 내세우는 편이다. "
-                    android:textSize="13sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_7"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="7. 언제 무엇을 할 것인가를 계획하는 편이다."
-                    android:textSize="13sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_8"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
+                    android:gravity="center_vertical"
                     android:text="8. 별 계획 없이 훌쩍 떠나는 편이다."
-                    android:textSize="13sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_9"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="9. 여러 사람들 사이에 끼어 함께 대화를 나누는 편이다."
                     android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_10"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="10.한번에 한 사람씩 대화를 나누는 편이다."
-                    android:textSize="13sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_11"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="11.나는 상상력이 풍부한 사람이다."
-                    android:textSize="13sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/test_12"
                     android:layout_width="330dp"
                     android:layout_height="match_parent"
                     android:text="12. 나는 현실 감각이 있는 사람이다."
-                    android:textSize="13sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
 
-                <Button
-                    android:layout_width="40dp"
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/test_13"
+                    android:layout_width="330dp"
                     android:layout_height="match_parent"
-                    android:background="#ffffff"/>
+                    android:text="13. 나는 현실 감각이 있는 사람이다."
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textAlignment="gravity"
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
+
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/test_14"
+                    android:layout_width="330dp"
+                    android:layout_height="match_parent"
+                    android:text="14. 나는 현실 감각이 있는 사람이다."
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textAlignment="gravity"
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
+
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/test_15"
+                    android:layout_width="330dp"
+                    android:layout_height="match_parent"
+                    android:text="15. 나는 현실 감각이 있는 사람이다."
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textAlignment="gravity"
+                    android:gravity="center_vertical"
+                    android:layerType="software"
+                    android:background="@drawable/test_line_1"/>
+
+                <CheckBox
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/checkbox_shape_1"/>
+
+
+            </LinearLayout>
 
             </LinearLayout>
 
@@ -391,47 +564,57 @@
                 android:gravity="center">
 
                 <TextView
-                    android:layout_width="40dp"
+                    android:id="@+id/test_progress_2"
+                    android:layout_width="60dp"
                     android:layout_height="40dp"
-                    android:text="12/60"
+                    android:text="15/60"
+                    android:textStyle="bold"
                     android:textAlignment="gravity"
-                    android:gravity="center_vertical"/>
+                    android:gravity="center"
+                    android:background="@drawable/test_layout_6"/>
 
                 <Button
+                    android:id="@+id/test_btn_before"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
-                    android:layout_marginLeft="140dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="이전으로"/>
+
+                <Button
+                    android:id="@+id/test_btn_next"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
                     android:text="다음으로"/>
 
             </LinearLayout>
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:orientation="vertical"
-                    android:gravity="center_vertical">
+                    android:text="Produced by MBTI form G"
+                    android:textAlignment="gravity"
+                    android:gravity="center"/>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:text="Produced by MBTI form G"
-                        android:textAlignment="gravity"
-                        android:gravity="center"/>
+            </LinearLayout>
 
-                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <Button
+                    android:id="@+id/test_btn_return"
+                    android:layout_width="150dp"
                     android:layout_height="40dp"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center">
-
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="40dp"
-                        android:text="홈으로 돌아가기"/>
-
-                </LinearLayout>
+                    android:text="홈으로 돌아가기"/>
 
             </LinearLayout>
 
