@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginTop="30dp"
-                android:text="○  해당하는 문항에만 답변하시오."
+                android:text="○  두 가지 답변 중 해당하는 문항에만 답변하시오."
                 android:textSize="17sp"
                 android:paddingLeft="10dp"
                 android:textAlignment="gravity"
@@ -115,7 +115,7 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="5dp"
-                    android:text="1/4"
+                    android:text="1/6"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textAlignment="gravity"
@@ -134,423 +134,403 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="375dp"
+            android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="10dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layerType="software">
-
-                <TextView
-                    android:id="@+id/test_1"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="1. 다른사람들과 쉽게 어울린다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_2"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="2. 조용하고 말이 없는 편이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_3"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="3. 실제적인 사실을 다루는 과목들을 가르치고 싶다. "
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_4"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="4. 이론적인 과목들을 가르치고 싶다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_5"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="5. 감정을 이성보다 더 자주 내세우는 편이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_6"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="6. 이성을 감정보다 더 자주 내세우는 편이다. "
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_7"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="7. 언제 무엇을 할 것인가를 계획하는 편이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_8"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center_vertical"
-                    android:text="8. 별 계획 없이 훌쩍 떠나는 편이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_9"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="9. 여러 사람들 사이에 끼어 함께 대화를 나누는 편이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_10"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="10.한번에 한 사람씩 대화를 나누는 편이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_11"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="11.나는 상상력이 풍부한 사람이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_12"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="12. 나는 현실 감각이 있는 사람이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_13"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="13. 나는 현실 감각이 있는 사람이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_14"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="14. 나는 현실 감각이 있는 사람이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:id="@+id/test_15"
-                    android:layout_width="330dp"
-                    android:layout_height="match_parent"
-                    android:text="15. 나는 현실 감각이 있는 사람이다."
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:gravity="center_vertical"
-                    android:layerType="software"
-                    android:background="@drawable/test_line_1"/>
-
-                <CheckBox
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:checked="false"
-                    android:button="@android:color/transparent"
-                    android:background="@drawable/checkbox_shape_1"/>
-
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/test_layout_7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/test_layout_8">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="①"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="'나는'"
+                        android:paddingRight="40dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="다른사람들과 쉽게 어울린다."
+                        android:fontFamily="@font/chosunkg"
+                        android:lineSpacingExtra="5dp"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="조용하고 말이 없는 편이다."
+                        android:lineSpacingExtra="5dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"/>
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/test_layout_8">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="②"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="'내가 교사라면'"
+                        android:paddingRight="40dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="실제적인 사실을 다루는\n과목을 가르치고 싶다."
+                        android:fontFamily="@font/chosunkg"
+                        android:lineSpacingExtra="5dp"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="이론적인 과목을 가르치고 싶다."
+                        android:lineSpacingExtra="5dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"/>
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/test_layout_8">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="③"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="'나는'"
+                        android:paddingRight="40dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="감정을 이성보다 더 자주\n내세우는 편이다."
+                        android:lineSpacingExtra="5dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="이성을 감정보다 더 자주\n내세우는 편이다."
+                        android:lineSpacingExtra="5dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"/>
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/test_layout_8">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="④"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="'하루정도 떠나고 싶을 때'"
+                        android:paddingRight="40dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="언제 무엇을할 것인가를\n계획하는 편이다."
+                        android:lineSpacingExtra="5dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="별 계획 없이 떠나는 편이다."
+                        android:lineSpacingExtra="5dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"/>
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/test_layout_8">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="⑤"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="'나는'"
+                        android:paddingRight="40dp"
+                        android:fontFamily="@font/chosunkg"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="여러 사람들 사이에 끼어\n함께 대화를 나누는 편이다."
+                        android:fontFamily="@font/chosunkg"
+                        android:lineSpacingExtra="5dp"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="315dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="한번에 한 사람씩\n대화를 나누는 편이다."
+                        android:fontFamily="@font/chosunkg"
+                        android:lineSpacingExtra="5dp"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"/>
+                    <CheckBox
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:checked="false"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_shape_1"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -567,7 +547,7 @@
                     android:id="@+id/test_progress_2"
                     android:layout_width="60dp"
                     android:layout_height="40dp"
-                    android:text="15/60"
+                    android:text="10/60"
                     android:textStyle="bold"
                     android:textAlignment="gravity"
                     android:gravity="center"
