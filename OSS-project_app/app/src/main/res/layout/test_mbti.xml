@@ -177,17 +177,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
                         android:layout_height="55dp"
                         android:gravity="center"
                         android:text="다른사람들과 쉽게 어울린다."
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:lineSpacingExtra="5dp"
                         android:textAlignment="gravity"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
 
                     <CheckBox
                         android:layout_width="45dp"
@@ -203,7 +205,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
@@ -211,8 +214,9 @@
                         android:gravity="center"
                         android:text="조용하고 말이 없는 편이다."
                         android:lineSpacingExtra="5dp"
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:textSize="20sp"
+                        android:textStyle="bold"
                         android:textAlignment="gravity"/>
                     <CheckBox
                         android:layout_width="45dp"
@@ -228,6 +232,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/test_layout_8">
 
                     <TextView
@@ -254,17 +259,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
                         android:layout_height="55dp"
                         android:gravity="center"
                         android:text="실제적인 사실을 다루는\n과목을 가르치고 싶다."
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:lineSpacingExtra="5dp"
                         android:textAlignment="gravity"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
 
                     <CheckBox
                         android:layout_width="45dp"
@@ -280,7 +287,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
@@ -288,8 +296,9 @@
                         android:gravity="center"
                         android:text="이론적인 과목을 가르치고 싶다."
                         android:lineSpacingExtra="5dp"
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:textSize="20sp"
+                        android:textStyle="bold"
                         android:textAlignment="gravity"/>
                     <CheckBox
                         android:layout_width="45dp"
@@ -305,6 +314,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/test_layout_8">
 
                     <TextView
@@ -331,7 +341,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
@@ -339,10 +350,10 @@
                         android:gravity="center"
                         android:text="감정을 이성보다 더 자주\n내세우는 편이다."
                         android:lineSpacingExtra="5dp"
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:textAlignment="gravity"
-                        android:textSize="20sp" />
-
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
                     <CheckBox
                         android:layout_width="45dp"
                         android:layout_height="45dp"
@@ -357,7 +368,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
@@ -365,8 +377,9 @@
                         android:gravity="center"
                         android:text="이성을 감정보다 더 자주\n내세우는 편이다."
                         android:lineSpacingExtra="5dp"
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:textSize="20sp"
+                        android:textStyle="bold"
                         android:textAlignment="gravity"/>
                     <CheckBox
                         android:layout_width="45dp"
@@ -382,7 +395,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:background="@drawable/test_layout_8">
+                    android:background="@drawable/test_layout_8"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="30dp"
@@ -408,7 +422,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
@@ -416,9 +431,10 @@
                         android:gravity="center"
                         android:text="언제 무엇을할 것인가를\n계획하는 편이다."
                         android:lineSpacingExtra="5dp"
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:textAlignment="gravity"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
 
                     <CheckBox
                         android:layout_width="45dp"
@@ -434,7 +450,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
@@ -442,8 +459,9 @@
                         android:gravity="center"
                         android:text="별 계획 없이 떠나는 편이다."
                         android:lineSpacingExtra="5dp"
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:textSize="20sp"
+                        android:textStyle="bold"
                         android:textAlignment="gravity"/>
                     <CheckBox
                         android:layout_width="45dp"
@@ -459,7 +477,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:background="@drawable/test_layout_8">
+                    android:background="@drawable/test_layout_8"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="30dp"
@@ -485,17 +504,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
                         android:layout_height="55dp"
                         android:gravity="center"
                         android:text="여러 사람들 사이에 끼어\n함께 대화를 나누는 편이다."
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:lineSpacingExtra="5dp"
                         android:textAlignment="gravity"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
 
                     <CheckBox
                         android:layout_width="45dp"
@@ -511,16 +532,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="315dp"
                         android:layout_height="55dp"
                         android:gravity="center"
                         android:text="한번에 한 사람씩\n대화를 나누는 편이다."
-                        android:fontFamily="@font/chosunkg"
+                        android:fontFamily="@font/chosungu"
                         android:lineSpacingExtra="5dp"
                         android:textSize="20sp"
+                        android:textStyle="bold"
                         android:textAlignment="gravity"/>
                     <CheckBox
                         android:layout_width="45dp"
