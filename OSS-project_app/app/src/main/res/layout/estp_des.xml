@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".istj_des">
+    tools:context=".estp_des">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,10 +43,10 @@
                     android:layout_gravity="center_vertical"
                     android:gravity="center"
                     android:layout_marginLeft="150dp"
-                    android:text="ISTJ"
+                    android:text="ESTP"
                     android:textSize="40sp"
                     android:textStyle="bold"
-                    android:background="@drawable/des_marker_2"/>
+                    android:background="@drawable/des_marker_4"/>
 
                 <ImageView
                     android:layout_width="26dp"
@@ -70,20 +70,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:src="@drawable/istj_cha"/>
+                        android:src="@drawable/estp_cha"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="190dp"
                     android:layout_height="170dp"
-                    android:orientation="vertical"
-                    android:gravity="center_vertical">
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:background="@drawable/des_marker_3"
-                        android:text="성실노력형"
+                        android:background="@drawable/des_marker_1"
+                        android:text="자극추구형"
                         android:fontFamily="@font/jalnan"
                         android:textSize="20sp"
                         android:textAlignment="gravity"
@@ -92,8 +91,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:background="@drawable/des_marker_3"
-                        android:text="세상의 소금형"
+                        android:background="@drawable/des_marker_1"
+                        android:text="수완좋은 활동가형"
                         android:fontFamily="@font/jalnan"
                         android:textSize="20sp"
                         android:textAlignment="gravity"
@@ -103,9 +102,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:background="@drawable/des_marker_3"
+                        android:background="@drawable/des_marker_1"
                         android:gravity="center"
-                        android:text="청렴한 현실주의자"
+                        android:text="도전적인 사업가"
                         android:fontFamily="@font/jalnan"
                         android:textAlignment="gravity"
                         android:textSize="20sp" />
@@ -130,7 +129,7 @@
                 android:layout_marginRight="30dp"
                 android:fontFamily="@font/jalnan"
                 android:gravity="center"
-                android:text="ISTJ 소개"
+                android:text="ESTP 소개"
                 android:textAlignment="gravity"
                 android:textSize="20sp" />
 
@@ -153,7 +152,7 @@
                 android:layout_marginRight="30dp"
                 android:fontFamily="@font/jalnan"
                 android:gravity="center"
-                android:text="ISTJ 특징"
+                android:text="ESTP 특징"
                 android:textAlignment="gravity"
                 android:textSize="20sp" />
 
@@ -262,7 +261,6 @@
                 android:layout_height="150dp"
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginBottom="50dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal">
 
@@ -290,7 +288,7 @@
             android:layout_marginBottom="20dp">
 
             <Button
-                android:id="@+id/istj_btn_return"
+                android:id="@+id/estp_btn_return"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:text="홈으로 돌아가기"
@@ -302,4 +300,3 @@
     </LinearLayout>
 
 </ScrollView>
-
