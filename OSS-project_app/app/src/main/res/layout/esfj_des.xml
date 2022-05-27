@@ -70,7 +70,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:src="@drawable/isfj_cha"/>
+                        android:src="@drawable/esfj_cha"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -83,7 +83,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:background="@drawable/des_marker_3"
-                        android:text="성실노력형"
+                        android:text="친목회장형"
                         android:fontFamily="@font/jalnan"
                         android:textSize="20sp"
                         android:textAlignment="gravity"
@@ -93,7 +93,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:background="@drawable/des_marker_3"
-                        android:text="세상의 소금형"
+                        android:text="친절봉사형"
                         android:fontFamily="@font/jalnan"
                         android:textSize="20sp"
                         android:textAlignment="gravity"
@@ -105,7 +105,7 @@
                         android:layout_height="60dp"
                         android:background="@drawable/des_marker_3"
                         android:gravity="center"
-                        android:text="용감성실 수호자"
+                        android:text="사교적인 외교관"
                         android:fontFamily="@font/jalnan"
                         android:textAlignment="gravity"
                         android:textSize="20sp" />
@@ -130,7 +130,7 @@
                 android:layout_marginRight="30dp"
                 android:fontFamily="@font/jalnan"
                 android:gravity="center"
-                android:text="ISTJ 소개"
+                android:text="ESFJ 소개"
                 android:textAlignment="gravity"
                 android:textSize="20sp" />
 
@@ -153,7 +153,7 @@
                 android:layout_marginRight="30dp"
                 android:fontFamily="@font/jalnan"
                 android:gravity="center"
-                android:text="ISTJ 특징"
+                android:text="ESFJ 특징"
                 android:textAlignment="gravity"
                 android:textSize="20sp" />
 
