@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".entp_res">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/result_background_6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="진단결과"
+                    android:fontFamily="@font/jalnan"
+                    android:drawableRight="@drawable/result_head_1"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="30sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="60dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="195dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="당신의 MBTI"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="30sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="195dp"
+                        android:layout_height="170dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/entp"/>
+
+                    <LinearLayout
+                        android:layout_width="195dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="다능인형"
+                                android:fontFamily="@font/jalnan"
+                                android:textSize="25sp"
+                                android:gravity="center"
+                                android:textAlignment="gravity"/>
+
+                            <ImageView
+                                android:layout_width="170dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/result_line_3"/>
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="논쟁즐기는 변론가"
+                                android:fontFamily="@font/jalnan"
+                                android:textSize="23sp"
+                                android:gravity="center"
+                                android:textAlignment="gravity"/>
+
+                            <ImageView
+                                android:layout_width="190dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="bottom"
+                                android:background="@drawable/result_line_3"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/button_round_1"
+                        android:layout_marginRight="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="외향적"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+
+                            android:textAlignment="gravity"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/button_round_7"
+                        android:layout_marginRight="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="직관적"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:textAlignment="gravity"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/button_round_4"
+                        android:layout_marginRight="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="사고적"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:textAlignment="gravity"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/button_round_2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="인식적"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:textAlignment="gravity"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="성향 분석"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textAlignment="gravity"
+                        android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="정신 : 환경과 상호작용 하는 방식"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textAlignment="gravity"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="외향성"
+                                android:fontFamily="@font/jalnan"
+                                android:textSize="20sp"
+                                android:textAlignment="center"/>
+
+                            <TextView
+                                android:id="@+id/e_percent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="0%"
+                                android:fontFamily="@font/jalnan"
+                                android:textSize="20sp"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_e"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_1"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="내향성"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/i_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_i"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_2"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="에너지 : 정신적 에너지의 방향"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textAlignment="gravity"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="직관적"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/n_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_n"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_1"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="감각적"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/s_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_s"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_2"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="자연 : 결정과 대처의 방법"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textAlignment="gravity"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="사고"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/t_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_t"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_1"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="감정"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/f_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_f"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_2"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="전술 : 결정과 대처의 방법"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textAlignment="gravity"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="판단"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/j_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_j"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_1"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="60dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="인식"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+
+                                <TextView
+                                    android:id="@+id/p_percent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0%"
+                                    android:fontFamily="@font/jalnan"
+                                    android:textSize="20sp"
+                                    android:textAlignment="gravity"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar_p"
+                                    android:layout_width="310dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:progressDrawable="@drawable/progressbar_custom_2"
+                                    android:progress="0"
+                                    android:max="100"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+                       
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="어울리는 직종"
+                            android:fontFamily="@font/jalnan"
+                            android:textSize="30sp"
+                            android:gravity="center"
+                            android:textAlignment="gravity"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="20dp"/>
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="20dp"/>
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="20dp"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+                            
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"/>
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"/>
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"/>
+                            
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <Button
+                            android:id="@+id/entp_result_return"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:text="홈으로 돌아가기"
+                            android:fontFamily="@font/jalnan"
+                            android:background="@drawable/des_return"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
