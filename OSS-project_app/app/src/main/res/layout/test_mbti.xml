@@ -181,6 +181,7 @@
                     android:layout_marginTop="5dp">
 
                     <TextView
+                        android:id="@+id/answer_e"
                         android:layout_width="315dp"
                         android:layout_height="55dp"
                         android:gravity="center"
@@ -191,7 +192,7 @@
                         android:textSize="20sp"
                         android:textStyle="bold"/>
 
-                    <CheckBox
+                    <RadioButton
                         android:layout_width="45dp"
                         android:layout_height="45dp"
                         android:layout_marginLeft="5dp"
@@ -209,6 +210,7 @@
                     android:layout_marginTop="5dp">
 
                     <TextView
+                        android:id="@+id/answer_i"
                         android:layout_width="315dp"
                         android:layout_height="55dp"
                         android:gravity="center"
