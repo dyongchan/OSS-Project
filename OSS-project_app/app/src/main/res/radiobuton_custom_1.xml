@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 체크안되었을때-->
+    <item android:state_checked="false">
+        <shape>
+            <stroke android:color="#ffffff" android:width="1dp"/>
+            <corners android:radius="10dp" />
+            <solid android:color="#ffffff" />
+        </shape>
+        <!-- 체크될때-->
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="10dp" />
+                    <solid android:color="#ffffff" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/checkbox_1" android:top="5dp" android:bottom="5dp" android:right="5dp" android:left="5dp" />
+        </layer-list>
+    </item>
+</selector>

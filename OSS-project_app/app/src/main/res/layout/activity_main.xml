@@ -65,7 +65,7 @@
                         android:paddingRight="20dp"
                         android:text="진단하기"
                         android:textAlignment="center"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"/>
 
                 </LinearLayout>
 
