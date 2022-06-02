@@ -697,15 +697,30 @@
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="파일럿"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="사진작가"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="운동선수"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
 
                         </LinearLayout>
@@ -715,18 +730,32 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center">
-                            
-                            <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
 
                             <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/pilot"/>
 
                             <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/photographer"/>
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/athelete"/>
                             
                         </LinearLayout>
 

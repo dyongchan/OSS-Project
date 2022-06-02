@@ -671,13 +671,13 @@
                         </LinearLayout>
 
                     </LinearLayout>
-                    
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
                         android:orientation="vertical">
-                       
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -696,15 +696,30 @@
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="통계학자"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="법률연구원"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="감정평가사"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
 
                         </LinearLayout>
@@ -714,19 +729,33 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center">
-                            
-                            <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
 
                             <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/piechart"/>
 
                             <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
-                            
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/judge"/>
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/evaluation"/>
+
                         </LinearLayout>
 
                     </LinearLayout>
