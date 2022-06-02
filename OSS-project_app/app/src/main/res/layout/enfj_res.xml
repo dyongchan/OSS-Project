@@ -672,13 +672,13 @@
                         </LinearLayout>
 
                     </LinearLayout>
-                    
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
                         android:orientation="vertical">
-                       
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -697,15 +697,30 @@
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="아나운서"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="리포터"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
                             <TextView
                                 android:layout_width="130dp"
-                                android:layout_height="20dp"/>
+                                android:layout_height="20dp"
+                                android:text="CEO"
+                                android:textSize="17sp"
+                                android:fontFamily="@font/jalnan"
+                                android:textAlignment="gravity"
+                                android:gravity="center"/>
 
 
                         </LinearLayout>
@@ -715,19 +730,33 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center">
-                            
-                            <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
 
                             <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/politician"/>
 
                             <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="130dp"/>
-                            
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/reporter"/>
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/ceo"/>
+
                         </LinearLayout>
 
                     </LinearLayout>
