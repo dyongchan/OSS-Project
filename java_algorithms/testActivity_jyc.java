@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
@@ -17,6 +18,7 @@ import org.w3c.dom.Text;
 public class testActivity extends Activity {
 
     int inspection_number = 1;
+    int inspection_point = 1;
     int e_point, i_point, s_point, n_point, t_point, f_point, j_point, p_point = 0;
 
     private Button test_btn_return;
@@ -44,17 +46,80 @@ public class testActivity extends Activity {
             }
         });
 
+        Radio_btn_e = (RadioButton) findViewById(R.id.Radio_btn_e);
+        Radio_btn_e.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_i = (RadioButton) findViewById(R.id.Radio_btn_i);
+        Radio_btn_i.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_s = (RadioButton) findViewById(R.id.Radio_btn_s);
+        Radio_btn_s.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_n = (RadioButton) findViewById(R.id.Radio_btn_n);
+        Radio_btn_n.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_t = (RadioButton) findViewById(R.id.Radio_btn_t);
+        Radio_btn_t.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_f = (RadioButton) findViewById(R.id.Radio_btn_f);
+        Radio_btn_f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_p = (RadioButton) findViewById(R.id.Radio_btn_p);
+        Radio_btn_p.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;
+            }
+        });
+
+        Radio_btn_j = (RadioButton) findViewById(R.id.Radio_btn_j);
+        Radio_btn_j.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inspection_point ++;;
+            }
+        });
 
         test_btn_next = findViewById(R.id.test_btn_next);
         test_btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                inspection_number++;
+                if (inspection_point == 5);{
+                    inspection_number++; }
                 next1();
-                next2();
-
             }
         });
+
     }
 
     public void next1() {
@@ -66,66 +131,144 @@ public class testActivity extends Activity {
               TextView answer_f = (TextView) findViewById(R.id.answer_f);
               TextView answer_j = (TextView) findViewById(R.id.answer_j);
               TextView answer_p = (TextView) findViewById(R.id.answer_p);
+              TextView test_number_ei = (TextView)  findViewById(R.id.test_number_ei);
+              TextView test_number_sn = (TextView)  findViewById(R.id.test_number_sn);
+              TextView test_number_tf = (TextView)  findViewById(R.id.test_number_tf);
+              TextView test_number_jp = (TextView)  findViewById(R.id.test_number_jp);
+              TextView test_progress_1 = (TextView)  findViewById(R.id.test_progress_1);
+              TextView test_progress_2 = (TextView)  findViewById(R.id.test_progress_2);
+              RadioGroup Radio_group_ei = (RadioGroup) findViewById(R.id.Radio_group_ei);
+              RadioGroup Radio_group_sn = (RadioGroup) findViewById(R.id.Radio_group_sn);
+              RadioGroup Radio_group_tf = (RadioGroup) findViewById(R.id.Radio_group_tf);
+              RadioGroup Radio_group_jp = (RadioGroup) findViewById(R.id.Radio_group_jp);
+
 
 
 
         if (inspection_number == 2) {
-            answer_e.setText("안녕");
-            answer_i.setText("2번쨰야");
-            answer_s.setText("");
-            answer_n.setText("");
-            answer_t.setText("");
-            answer_f.setText("");
-            answer_j.setText("");
-            answer_p.setText("");
+            test_progress_1.setText("2/8");
+            test_progress_2.setText("16/64");
+            test_number_ei.setText("⑤");
+            test_number_sn.setText("⑥");
+            test_number_tf.setText("⑦");
+            test_number_jp.setText("⑧");
+            answer_e.setText("여러 사람들 사이에 끼어\n함께 대화를 나누는 편이다.");
+            answer_i.setText("한 번에 한 사람씩\n대화를 나누는편이다.");
+            answer_s.setText("현실 감각이 있는 사람과 잘 어울린다.");
+            answer_n.setText("상상력이 풍부한 사람과 잘 어울린다.");
+            answer_t.setText("꾸준하고 합리적인\n사람으로 불리는게 더 좋다.");
+            answer_f.setText("솔직하고 감정적인\n사람으로 불리는게 더 좋다.");
+            answer_j.setText("모임을 미리 여유있게\n계획하는 편이다.");
+            answer_p.setText("모임은 상황에 따라 별\n계획없이 자유로운 편이다.");
         }
 
         if (inspection_number == 3) {
-            answer_e.setText("안녕");
-            answer_i.setText("2번쨰야");
-            answer_s.setText("");
-            answer_n.setText("");
-            answer_t.setText("");
-            answer_f.setText("");
-            answer_j.setText("");
-            answer_p.setText("");
+            test_progress_1.setText("3/8");
+            test_progress_2.setText("24/64");
+            test_number_ei.setText("⑨");
+            test_number_sn.setText("⑩");
+            test_number_tf.setText("⑪");
+            test_number_jp.setText("⑫");
+            answer_e.setText("사람들이 많은 그룹 내에서\n다른 사람을 소개하는 편이다.");
+            answer_i.setText("사람들이 많은 그룹 내에서\n다른 사람이 나를 소개하는 편이다");
+            answer_s.setText("실제적이고 현실감각적인\n사람으로 인정받기를 원한다.");
+            answer_n.setText("재능과 창의력이 있는\n사람으로 인정받기를 원한다.");
+            answer_t.setText("평소에 감상보다는\n논리를 더 중요시 한다.");
+            answer_f.setText("평소에 논리보다는\n감상을 더 중요시 한다.");
+            answer_j.setText("치밀하게 짜여진 계획에\n따라 일을 더 잘 처리한다.");
+            answer_p.setText("갑작스러운 업무나 일을\n신속하게  더 잘 처리한다.");
         }
 
         if (inspection_number == 4) {
-            answer_e.setText("안녕");
-            answer_i.setText("2번쨰야");
-            answer_s.setText("");
-            answer_n.setText("");
-            answer_t.setText("");
-            answer_f.setText("");
-            answer_j.setText("");
-            answer_p.setText("");
+            test_progress_1.setText("4/8");
+            test_progress_2.setText("32/64");
+            test_number_ei.setText("⑬");
+            test_number_sn.setText("⑭");
+            test_number_tf.setText("⑮");
+            test_number_jp.setText("⑯");
+            answer_e.setText("다양한 사람들과 폭\n넓은 우정을 맺는 편이다.");
+            answer_i.setText("소수의 사람들과 깊은\n우정을 맺는 편이다.");
+            answer_s.setText("보수적이고 남에게 드러나지\n않는 사람을 더 존경한다.");
+            answer_n.setText("독창적,개성적이고 드러나는\n것에 개의치 않는 사람을 존경한다.");
+            answer_t.setText("비합리적인 면이\n단점이라고 느낀다.");
+            answer_f.setText("동정심이 없는 면이\n단점이라고 느낀다.");
+            answer_j.setText("짜여진 시간표를 따르는 일이 좋다.");
+            answer_p.setText("짜여진 시간표를 따르는\n일이 답답하게 느껴진다.");
         }
 
         if (inspection_number == 5) {
-            answer_e.setText("안녕");
-            answer_i.setText("2번쨰야");
-            answer_s.setText("");
-            answer_n.setText("");
-            answer_t.setText("");
-            answer_f.setText("");
-            answer_j.setText("");
-            answer_p.setText("");
+            test_progress_1.setText("5/8");
+            test_progress_2.setText("40/64");
+            test_number_ei.setText("⑰");
+            test_number_sn.setText("⑱");
+            test_number_tf.setText("⑲");
+            test_number_jp.setText("⑳");
+            answer_e.setText("많은 사람들에 대한\n소식에나 소문에 밝은 편이다.");
+            answer_i.setText("소식이나 소문을 제일\n늦게 듣는 편이다.");
+            answer_s.setText("현실감각이 있는 사람을\n친구로 사귀고 싶다.");
+            answer_n.setText("새로운 아이디어를 자아내는\n사람을 친구로 사귀고 싶다.");
+            answer_t.setText("언제나 공정한 사람\n밑에서 일하는 것이 좋다.");
+            answer_f.setText("항상 친절한 사람\n밑에서 일하는 것이 좋다.");
+            answer_j.setText("해야할 일 목록을 작성하는\n것에 대해 좋다고 생각한다.");
+            answer_p.setText("해야할 일 목록을 작성하는\n것에 대해 별로 내키지 않는다.");
+
+        }
+
+        if (inspection_number == 6) {
+            test_progress_1.setText("6/8");
+            test_progress_2.setText("48/64");
+            test_number_ei.setText("㉑");
+            test_number_sn.setText("㉒");
+            test_number_tf.setText("㉓");
+            test_number_jp.setText("㉔");
+            answer_e.setText("누구하고나 쉽게\n대화를 나누는 편이다.");
+            answer_i.setText("일정한 사람이나 상황이 될 때\n얘기를 잘 나누는 편이다.");
+            answer_s.setText("의도한 바를 정확히 표현하는\n작가를 좋아하는 편이다.");
+            answer_n.setText("기묘하거나 독창적인\n작가의 표현을 즐기는 편이다.");
+            answer_t.setText("지나친 온정을 보이는\n것이 단점이라고 생각한다.");
+            answer_f.setText("적당한 온정을 보이지\n않는 것이 단점이라고 생각한다.");
+            answer_j.setText("일상적인 일에 관해서\n별 부담없이 해나가는 편이다.");
+            answer_p.setText("일상적인 일에 관해서 필요하지만\n매일 한다는 사실이 부담스럽다.");
+
+        }
+
+        if (inspection_number == 7) {
+            test_progress_1.setText("7/8");
+            test_progress_2.setText("56/64");
+            test_number_ei.setText("㉕");
+            test_number_sn.setText("㉖");
+            test_number_tf.setText("㉗");
+            test_number_jp.setText("㉘");
+            answer_e.setText("새로운 유행이 시작될 때\n앞장서서 시도해보는 편이다.");
+            answer_i.setText("새로운 유행이 시작될 때\n별 관심이 없는 편이다.");
+            answer_s.setText("선익을 위해서 만들어진\n기존 체제방식을 지지하는 편이다.");
+            answer_n.setText("기존 방식의 잘못을 분석하고\n해결하려 도전하는 편이다.");
+            answer_t.setText("나는 분석하는 일에 관심이 있다.");
+            answer_f.setText("나는 공감하는 일에 관심이 있다.");
+            answer_j.setText("사소한 일이 있을 때 기억하기\n위해 메모지에 적어 두는 편이다.");
+            answer_p.setText("사소한 일이 있을 때 자주 잊고\n있다가 나중에야 기억하는 편이다.");
+
+        }
+
+        if (inspection_number == 8) {
+            test_progress_1.setText("8/8");
+            test_progress_2.setText("64/64");
+            test_number_ei.setText("㉗");
+            test_number_sn.setText("㉘");
+            test_number_tf.setText("㉙");
+            test_number_jp.setText("㉚");
+            answer_e.setText("나는 다른 사람들과\n쉽게 사귈 수 있는 편이다.");
+            answer_i.setText("나는 다른 사람들과\n쉽게 사귀기 어려운 편이다.");
+            answer_s.setText("나는 현실에 초점을 맞추는 편이다.");
+            answer_n.setText("나는 이념에 초점을 맞추는 편이다.");
+            answer_t.setText("나는 정의로운 편이다.");
+            answer_f.setText("나는 자비로운 편이다.");
+            answer_j.setText("계속적인 변화보다 틀에 박힌\n일상적인 일에 더 적응하기 어렵다.");
+            answer_p.setText("일상적인 일보다 계속적인\n변화하는 일에 더 적응하기 어렵다.");
 
         }
 
 
-
-
-        }
-
-    public void next2() {
-        final RadioButton Radio_btn_e = (RadioButton) findViewById(R.id.Radio_btn_e);
-
-        if (inspection_number == 2) {
-
-
-        }
     }
 
 
