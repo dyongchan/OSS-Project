@@ -18,7 +18,7 @@ import org.w3c.dom.Text;
 public class testActivity extends Activity {
 
     int inspection_number = 1;
-    int inspection_point = 1;
+   // int inspection_point = 1;
     int e_point, i_point, s_point, n_point, t_point, f_point, j_point, p_point = 0;
 
     private Button test_btn_return;
@@ -30,6 +30,8 @@ public class testActivity extends Activity {
     /* 각 특성에 해당하는 라디오버튼*/
     private TextView test_number_ei, test_number_sn, test_number_tf, test_number_jp; // 문제 상단 숫자
     private TextView test_progress_1, test_progress_2; // 진행도 1 = (1/8), 2 = (8/64)
+
+    private TextView textView1,textView2,textView3,textView4,textView5,textView6,textView7,textView8;
 
 
     @Override
@@ -45,102 +47,178 @@ public class testActivity extends Activity {
                 startActivity(intent);
             }
         });
+        Radio_group_ei=findViewById(R.id.Radio_group_ei);
+        Radio_group_sn=findViewById(R.id.Radio_group_sn);
+        Radio_group_tf=findViewById(R.id.Radio_group_tf);
+        Radio_group_jp=findViewById(R.id.Radio_group_jp);
 
         Radio_btn_e = (RadioButton) findViewById(R.id.Radio_btn_e);
-        Radio_btn_e.setOnClickListener(new View.OnClickListener() {
+        /*Radio_btn_e.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_i = (RadioButton) findViewById(R.id.Radio_btn_i);
-        Radio_btn_i.setOnClickListener(new View.OnClickListener() {
+        /*Radio_btn_i.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_s = (RadioButton) findViewById(R.id.Radio_btn_s);
-        Radio_btn_s.setOnClickListener(new View.OnClickListener() {
+        /*Radio_btn_s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_n = (RadioButton) findViewById(R.id.Radio_btn_n);
-        Radio_btn_n.setOnClickListener(new View.OnClickListener() {
+        /*Radio_btn_n.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_t = (RadioButton) findViewById(R.id.Radio_btn_t);
-        Radio_btn_t.setOnClickListener(new View.OnClickListener() {
+        /*Radio_btn_t.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_f = (RadioButton) findViewById(R.id.Radio_btn_f);
-        Radio_btn_f.setOnClickListener(new View.OnClickListener() {
+        /*Radio_btn_f.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_p = (RadioButton) findViewById(R.id.Radio_btn_p);
-        Radio_btn_p.setOnClickListener(new View.OnClickListener() {
+       /* Radio_btn_p.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;
             }
-        });
+        });*/
 
         Radio_btn_j = (RadioButton) findViewById(R.id.Radio_btn_j);
-        Radio_btn_j.setOnClickListener(new View.OnClickListener() {
+       /* Radio_btn_j.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 inspection_point ++;;
             }
-        });
+        });*/
+
+
+        //lsy
+        textView1=findViewById(R.id.textView1);
+        textView2=findViewById(R.id.textView2);
+        textView3=findViewById(R.id.textView3);
+        textView4=findViewById(R.id.textView4);
+        textView5=findViewById(R.id.textView5);
+        textView6=findViewById(R.id.textView6);
+        textView7=findViewById(R.id.textView7);
+        textView8=findViewById(R.id.textView8);
+
+
 
         test_btn_next = findViewById(R.id.test_btn_next);
         test_btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (inspection_point == 5);{
-                    inspection_number++; }
-                next1();
+                int inspection_point=0;//답하지 않은 문제가 있는지 확인(next누를때마다 0으로 초기화해서 4개안풀면 안넘어가고 Toast발생)
+
+                if(Radio_btn_e.isChecked()){
+                    e_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_i.isChecked()){
+                    i_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_s.isChecked()){
+                    s_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_n.isChecked()){
+                    n_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_t.isChecked()){
+                    t_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_f.isChecked()){
+                    f_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_j.isChecked()){
+                    j_point++;
+                    inspection_point++;
+                }
+                if(Radio_btn_p.isChecked()){
+                    p_point++;
+                    inspection_point++;
+                }
+
+                if (inspection_point >=4 ){
+                    inspection_number++;
+                    next1();
+                    Checkoff();//다음으로 버튼 누르면 라디오버튼 체크가 해제
+                }
+                else{
+                    Toast.makeText(testActivity.this, "답하지 않은 문제가 있습니다.", Toast.LENGTH_SHORT).show();
+                }
+
+
+                textView1.setText("e="+e_point);
+                textView2.setText("i="+i_point);
+                textView3.setText("s="+s_point);
+                textView4.setText("n="+n_point);
+                textView5.setText("t="+t_point);
+                textView6.setText("f="+f_point);
+                textView7.setText("j="+j_point);
+                textView8.setText("p="+p_point);
+
             }
         });
 
+
+    }
+
+    public void Checkoff(){
+        Radio_group_ei.clearCheck();
+        Radio_group_sn.clearCheck();
+        Radio_group_tf.clearCheck();
+        Radio_group_jp.clearCheck();
     }
 
     public void next1() {
         final TextView answer_e = (TextView) findViewById(R.id.answer_e);
-              TextView answer_i = (TextView) findViewById(R.id.answer_i);
-              TextView answer_s = (TextView) findViewById(R.id.answer_s);
-              TextView answer_n = (TextView) findViewById(R.id.answer_n);
-              TextView answer_t = (TextView) findViewById(R.id.answer_t);
-              TextView answer_f = (TextView) findViewById(R.id.answer_f);
-              TextView answer_j = (TextView) findViewById(R.id.answer_j);
-              TextView answer_p = (TextView) findViewById(R.id.answer_p);
-              TextView test_number_ei = (TextView)  findViewById(R.id.test_number_ei);
-              TextView test_number_sn = (TextView)  findViewById(R.id.test_number_sn);
-              TextView test_number_tf = (TextView)  findViewById(R.id.test_number_tf);
-              TextView test_number_jp = (TextView)  findViewById(R.id.test_number_jp);
-              TextView test_progress_1 = (TextView)  findViewById(R.id.test_progress_1);
-              TextView test_progress_2 = (TextView)  findViewById(R.id.test_progress_2);
-              RadioGroup Radio_group_ei = (RadioGroup) findViewById(R.id.Radio_group_ei);
-              RadioGroup Radio_group_sn = (RadioGroup) findViewById(R.id.Radio_group_sn);
-              RadioGroup Radio_group_tf = (RadioGroup) findViewById(R.id.Radio_group_tf);
-              RadioGroup Radio_group_jp = (RadioGroup) findViewById(R.id.Radio_group_jp);
+        TextView answer_i = (TextView) findViewById(R.id.answer_i);
+        TextView answer_s = (TextView) findViewById(R.id.answer_s);
+        TextView answer_n = (TextView) findViewById(R.id.answer_n);
+        TextView answer_t = (TextView) findViewById(R.id.answer_t);
+        TextView answer_f = (TextView) findViewById(R.id.answer_f);
+        TextView answer_j = (TextView) findViewById(R.id.answer_j);
+        TextView answer_p = (TextView) findViewById(R.id.answer_p);
+        TextView test_number_ei = (TextView)  findViewById(R.id.test_number_ei);
+        TextView test_number_sn = (TextView)  findViewById(R.id.test_number_sn);
+        TextView test_number_tf = (TextView)  findViewById(R.id.test_number_tf);
+        TextView test_number_jp = (TextView)  findViewById(R.id.test_number_jp);
+        TextView test_progress_1 = (TextView)  findViewById(R.id.test_progress_1);
+        TextView test_progress_2 = (TextView)  findViewById(R.id.test_progress_2);
+        RadioGroup Radio_group_ei = (RadioGroup) findViewById(R.id.Radio_group_ei);
+        RadioGroup Radio_group_sn = (RadioGroup) findViewById(R.id.Radio_group_sn);
+        RadioGroup Radio_group_tf = (RadioGroup) findViewById(R.id.Radio_group_tf);
+        RadioGroup Radio_group_jp = (RadioGroup) findViewById(R.id.Radio_group_jp);
 
 
 
@@ -265,6 +343,7 @@ public class testActivity extends Activity {
             answer_f.setText("나는 자비로운 편이다.");
             answer_j.setText("계속적인 변화보다 틀에 박힌\n일상적인 일에 더 적응하기 어렵다.");
             answer_p.setText("일상적인 일보다 계속적인\n변화하는 일에 더 적응하기 어렵다.");
+            test_btn_next.setText("결과보기");
 
         }
 
@@ -272,5 +351,4 @@ public class testActivity extends Activity {
     }
 
 
-    }
-
+}
