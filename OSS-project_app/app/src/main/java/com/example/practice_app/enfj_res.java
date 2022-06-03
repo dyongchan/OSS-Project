@@ -1,4 +1,4 @@
-package com.example.mbti;
+package com.example.practive_app;
 
 import android.content.Intent;
 import android.os.Bundle;
