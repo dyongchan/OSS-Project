@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".isfp_des">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/des_background_1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fadingEdge="none"
+                    android:gravity="left"
+                    android:text="성격유형:"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="150dp"
+                    android:text="ISFP"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/des_marker_4"/>
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="37dp"
+                    android:src="@drawable/main_doodle_2" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/isfp_cha"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="170dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_1"
+                        android:text="장인형"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_1"
+                        android:text="성인군자형"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"
+                        android:gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_1"
+                        android:gravity="center"
+                        android:text="도전적인 예술가"
+                        android:fontFamily="@font/jalnan"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/main_background_4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="ISFP 소개"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:text=" ISFP는 현재 순간에 살고 쾌활하고 열정으로 주변 환경을 즐기는 부드럽게 돌보는 사람입니다. 유연하고 자발적이며 삶이 제공하는 것을 즐기기 위해 흐름을 따라가기를 좋아합니다. 또한 조용하고 겸손하며 친해지기 어려울 수 있습니다. 그러나 잘 아는 사람들에게 ISFP는 따뜻하고 친절하게 생각됩니다. 미적 감각이 강하고 주변 환경에서 아름다움을 추구하여 예술에 타고난 재능을 가지고 있습니다. 특히 물체를 다루는 데 탁월하며 붓과 칼과 같은 창의적인 도구를 능숙하게 다룰 수 있습니다. "
+                android:textSize="15.5sp"
+                android:justificationMode="inter_word"
+                android:gravity="fill"
+                android:textStyle="bold"
+                android:fontFamily="@font/chosunkg"
+                android:lineSpacingExtra="5dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_background_5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="ISFP 특징"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="장점"
+                    android:textSize="20sp"
+                    android:background="@drawable/des_strength2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_7"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="관찰력"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_7"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="즉흥적"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_7"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="원칙주의"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_7"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="개인적"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="27.5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/chosunkg"
+                    android:gravity="fill"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="5dp"
+                    android:text=" ISFP는 관찰력이 뛰어나고 세세한 부분들을 전체로 통합하는 능력이 있습니다. 패턴과 연결을 찾는데 전문가이며 이를 통해 타인의 변화와 개선의 가능성을 봅니다. 재미와 흥분을 갈망하고 대담하게 많은 취미를 추구하며 활동적인 삶을 사는 경향이 있습니다. ISFP는 원칙을 희생하는 거짓말, 위선자를 용납하지 않고 자신을 실망시키는 사람들과 최대한 떨어지려 노력합니다. 또한 관심을 끌지 않기 위해 노력하지만 모든 사람의 길은 독특해야 한다고 믿는 특징이 있습니다."
+                    android:textSize="15.5sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="단점"
+                    android:textSize="20sp"
+                    android:background="@drawable/des_weakness"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="민감성"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="우유부단"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="지루함"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="계획성"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/chosunkg"
+                    android:gravity="fill"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="5dp"
+                    android:text=" ISFP는 종종 평화를 유지하기 위해 불쾌한 감정을 억누르거나 자신의 필요를 무시합니다. 이는 갈등을 피하기 위해 타인의 이익을 따르게되어 시간이 지남에 따라 스스로 불편한 위치에 놓이는 경향이 있습니다. ISFP는 너무 개방적이어서 확고한 최종적 결정을 내리기 힘들어해 우유부단한 특징이 있습니다. 직접적인 경험과 모방을 통해 배우는 ISFP는 너무 추상적일 경우 종종 지루해하는 경향이 발생해 학습에 부정적인 영향을 끼치기도 합니다. 종종 자신의 행동에 대한 결과를 인식하지 못하며 미래의 계획에 대하여 깊게 생각하지 않는 특성을 갖고 있습니다."
+                    android:textSize="15.5sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_background_5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="어울리는 직종"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="보석 세공사"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="만화가"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="수의사"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/gems"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/comicbook"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/veterinarian"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="MBTI 궁합"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="좋은 궁합"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="나쁜 궁합"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/esfj_cha"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/estj_cha"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/enfp_cha"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/infj_cha"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/isfp_btn_return"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="홈으로 돌아가기"
+                android:fontFamily="@font/jalnan"
+                android:background="@drawable/des_return"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

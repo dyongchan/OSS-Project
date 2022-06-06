@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intp_des">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/des_background_1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fadingEdge="none"
+                    android:gravity="left"
+                    android:text="성격유형:"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="150dp"
+                    android:text="INTP"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/des_marker_7"/>
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="37dp"
+                    android:src="@drawable/main_doodle_2" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/intp_cha"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="170dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_8"
+                        android:text="분석가형"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_8"
+                        android:text="아이디어뱅크형"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"
+                        android:gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_8"
+                        android:gravity="center"
+                        android:text="학자 풍의 사색가"
+                        android:fontFamily="@font/jalnan"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/main_background_4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="INTP 소개"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:text=" INTP는 논리적 분석, 시스템 및 디자인에 매료 된 철학적 혁신가입니다. 이론에 몰두하고 있으며, 모든 것 뒤에 있는 보편적인 법칙을 찾으며 삶의 통일 된 주제와 같은복잡성을 이해하기를 원합니다.INTP는 생각에 깊이 흡수되어 있기 때문에 주변 세계를 잊어 버린 것처럼 보일 수 있습니다. 개념을 탐구하고, 연결하고, 사물이 어떻게 작동하는지에 대한 이해를 추구합니다. "
+                android:textSize="15.5sp"
+                android:justificationMode="inter_word"
+                android:gravity="fill"
+                android:textStyle="bold"
+                android:fontFamily="@font/chosunkg"
+                android:lineSpacingExtra="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_background_5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="INTP 특징"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="장점"
+                    android:textSize="20sp"
+                    android:background="@drawable/des_strength"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_2"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="분석적"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_2"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="목표추구"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_2"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="상상력"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_2"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="열정적"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="27.5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/chosunkg"
+                    android:gravity="fill"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="5dp"
+                    android:text=" INTP는 자신이 발견하는 모든 환경에서 분석적으로 가져오는 지적 능력이 있습니다. 무작위 적인 정보조각의 연결성을 따져보고 분석하는데에 탁월합니다. 이를 통하여 진리와 같은 객관성이 필요한 개념을 끊임없이 추구하며 오류를 뿌리뽑고 불일치를 제거하는데에 많은 에너지를 쏟습니다. INTP는 미래의 잠재력과 가능성에 적극적으로 집중하고 끊암없는 상상력을 발휘하여 관심있는 주제에 대한 토론은 매우 열정적입니다."
+                    android:textSize="15.5sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="단점"
+                    android:textSize="20sp"
+                    android:background="@drawable/des_weakness"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="불확실성"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="잦은혼란"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="경멸"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="무감각"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" INTP는 실패에 대한 두려움 속에서 살며 아이디어나 발명 속에서 중요한 측면을 간과 할 것을 염려를 해 추측의 시간과 에너지를 낭비하기도 하며 자주 혼란스러운 감정을 겪습니다. INTP는 뒤쳐지는 사람을 경멸하고 비판하는 경향이 있습니다. 다른사람들의 필요보다 마음속에서 일어나는 활동을 중요하시는 경향으로 곤경에 처하기도 하는데 특히 자신의 이론과 추상화에 너무 매료되어 어떤 종류의 감정적인 고려도 잊는 특징이 있어 개인적인 고려의 무시로 쉽게 불쾌감을 주기도 합니다."
+                    android:textSize="15.5sp"
+                    android:justificationMode="inter_word"
+                    android:gravity="fill"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chosunkg"
+                    android:lineSpacingExtra="5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_background_5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="어울리는 직종"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="경제학자"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="심리학자"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="연구원"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/economist"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/psychologist"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/chemistry"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="MBTI 궁합"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="좋은 궁합"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="나쁜 궁합"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/entj_cha"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/estj_cha"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/isfj_cha"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/esfj_cha"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/intp_btn_return"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="홈으로 돌아가기"
+                android:fontFamily="@font/jalnan"
+                android:background="@drawable/des_return"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

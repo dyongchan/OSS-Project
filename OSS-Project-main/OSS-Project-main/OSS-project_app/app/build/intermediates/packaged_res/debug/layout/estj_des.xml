@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".estj_des">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/des_background_1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fadingEdge="none"
+                    android:gravity="left"
+                    android:text="성격유형:"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="150dp"
+                    android:text="ESTJ"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/des_marker_2"/>
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="37dp"
+                    android:src="@drawable/main_doodle_2" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/estj_cha"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="170dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_3"
+                        android:text="관리자형"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_3"
+                        android:text="사업가형"
+                        android:fontFamily="@font/jalnan"
+                        android:textSize="20sp"
+                        android:textAlignment="gravity"
+                        android:gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/des_marker_3"
+                        android:gravity="center"
+                        android:text="엄격한 워커홀릭"
+                        android:fontFamily="@font/jalnan"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/main_background_4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="ESTJ 소개"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="  ESTJ는 열심히 일하는 전통주의자이며 프로젝트와 사람들을 조직하는 데 열중합니다. 질서 정연하고 규칙을 준수하며 일을 끝내는 것을 좋아하고 체계적이고 조직적인 방식으로 프로젝트를 진행하는 경향이 있습니다. ESTJ는 예측 가능성을 중시하고 논리적인 순서로 진행되는 것을 선호합니다. 조직의 결함을 발견하면 프로세스와 지침을 수립하기 위해 주도권을 잡고 모든 사람이 예상하는 대로 흘러갈 수 있도록 일을 진행시킵니다."
+                    android:textSize="15.5sp"
+                    android:justificationMode="inter_word"
+                    android:gravity="fill"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chosunkg"
+                    android:lineSpacingExtra="5dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_background_5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="ESTJ 특징"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="장점"
+                    android:textSize="20sp"
+                    android:background="@drawable/des_strength3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_1"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="효율성"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_1"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="무한한 헌신"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_1"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="무결성"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_1"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="청지기"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="27.5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" ESTJ는 계획적이고 삶을 구조적으로 만들어내며 질서를 만들고 지키는 것을 즐깁니다. 또한 무한한 에너지를 내뿜으며 조직내에서도 최고 속도로 일하는등 헌신적으로 희생합니다. 리더십에서 일관된 모습을 보여주며 존중과 의무감이 존재 할 때 가장 조직을 잘 이끌어갑니다. ESTJ는 사회의 문지기로 구조화를 통해 사회가 원활히 돌아가도록 정해진 법규나 규칙을 잘 지키며, 가족과 같은 자신의 사람을 최선을 다해 돌보는 경향이 있습니다. "
+                    android:textSize="15.5sp"
+                    android:justificationMode="inter_word"
+                    android:gravity="fill"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chosunkg"
+                    android:lineSpacingExtra="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="단점"
+                    android:textSize="20sp"
+                    android:background="@drawable/des_weakness"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="판단력"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="감정 충돌"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="일 중독"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_round_8"
+                            android:fontFamily="@font/jalnan"
+                            android:gravity="center"
+                            android:text="완고함"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" ESTJ는 혁신이 유익할 수 있다는 사실을 깨닫지 못하는 경우가 많으며 종종 자신과 다른사람의 감정을 고려하지않아 거칠고 무관심해 보이기도 합니다. 낮은 공감성으로 의도를 잘못 파악하고 오해하는 경우가 잦습니다.완벽주의적인 저신의 모습과 다른 타인에게 동정심이 없는 모습을 띄며 자신의 방식이 객관적으로 옳다고 이에 전념하여 자신의 성장을 방해하기도 합니다. 과도한 자신의 신념의 정당성에 매몰되어 새로운 정보나 관계에 문을 닫아 비전의 발휘나 상상력을 스스로 억제시키기도 합니다."
+                    android:textSize="15.5sp"
+                    android:justificationMode="inter_word"
+                    android:gravity="fill"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chosunkg"
+                    android:lineSpacingExtra="5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_background_5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="어울리는 직종"
+                android:textAlignment="gravity"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="감독관"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="은행장"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="보안 요원"
+                    android:fontFamily="@font/jalnan"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/manager"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/banker"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/guard"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="@font/jalnan"
+                    android:gravity="center"
+                    android:text="MBTI 궁합"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="좋은 궁합"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/jalnan"
+                        android:gravity="center"
+                        android:text="나쁜 궁합"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/isfp_cha"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/istp_cha"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/infp_cha"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:src="@drawable/infj_cha"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/estj_btn_return"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="홈으로 돌아가기"
+                android:fontFamily="@font/jalnan"
+                android:background="@drawable/des_return"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

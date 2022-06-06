@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable-v24/button_6.xml" value="0.3905" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable-v24/button_round_7.xml" value="0.3755" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable-v24/radiobuton_custom_2.xml" value="0.422" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable-v24/selector_radio_btn_2.xml" value="0.422" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/7.xml" value="0.3905" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_1.xml" value="0.2165" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_2.xml" value="0.2165" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_3.xml" value="0.2165" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_4.xml" value="0.3905" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_5.xml" value="0.2165" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_6.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_1.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_2.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_3.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_4.xml" value="0.203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_5.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_7.xml" value="0.4505" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/button_round_8.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/checkbox_shape_1.xml" value="0.2545" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/des_return.xml" value="0.3485" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/des_strength.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/des_strength2.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/des_strength3.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/des_strength4.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/des_weakness.xml" value="0.5375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/dotted_line_horizontal.xml" value="0.3875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/dotted_line_vertical.xml" value="0.3875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4505" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.4505" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/progressbar_custom_1.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/progressbar_custom_2.xml" value="0.142" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/radiobuton_custom_1.xml" value="0.4505" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/selector_radio_btn_1.xml" value="0.422" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_1.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_2.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_3.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_4.xml" value="0.3645" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_5.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_6.xml" value="0.3415" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_7.xml" value="0.3905" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_layout_8.xml" value="0.3905" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_line_1.xml" value="0.1685" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/test_ling_1.xml" value="0.203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/drawable/text_1.xml" value="0.3305" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/activity_istj_des.xml" value="0.44635416666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/enfj_des.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/enfj_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/enfp_des.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/enfp_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/entj_des.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/entj_res.xml" value="0.3864899529713553" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/entp_des.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/entp_res.xml" value="0.3864899529713553" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/esfj_des.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/esfj_res.xml" value="0.4708333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/esfp_des.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/esfp_res.xml" value="0.4261006289308176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/estj_des.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/estj_res.xml" value="0.4484375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/estp_des.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/estp_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/infj_des.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/infj_res.xml" value="0.4261006289308176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/infp_des.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/infp_res.xml" value="0.41716658975542226" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/intj_des.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/intj_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/intp_des.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/intp_res.xml" value="0.3864899529713553" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/isfj_des.xml" value="0.67" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/isfj_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/isfp_des.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/isfp_res.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/istf_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/istj_des.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/istj_description.xml" value="0.29440054963929924" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/istj_res.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/istp_des.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/istp_res.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/oss-project/OSS-Project-main/OSS-Project-main/OSS-project_app/app/src/main/res/layout/test_mbti.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
