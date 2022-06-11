@@ -18,7 +18,7 @@ import org.w3c.dom.Text;
 public class testActivity extends Activity {
 
     int inspection_number = 1;
-   // int inspection_point = 1;
+    /* int inspection_point = 1;*/
     int e_point, i_point, s_point, n_point, t_point, f_point, j_point, p_point = 0;
 
     private Button test_btn_return;
